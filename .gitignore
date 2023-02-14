@@ -1,0 +1,24 @@
+# gitignore
+.env
+.lock
+*__pycache__*
+*__final_files*
+*.session
+*.env
+*.csv
+*cookie*
+*.zip
+*.rar
+*.tar
+*.xlsx
+*.xls
+*.jpg
+*.png
+*.jpeg
+*.JPG
+*.PNG
+*.JPEG
+*.txt
+*.exe
+.idea
+!readme.txt
