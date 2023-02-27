@@ -6,7 +6,7 @@
 2. Start `pipenv run python main.py`
 3. The main script has some options for example:
 
-
+### Example
     from fmerger.fmerger import FMerger
 
     file_merger = FMerger({
