@@ -22,3 +22,7 @@
 *.exe
 .idea
 !readme.txt
+!*example.xlsx
+!*example.csv
+!*example.txt
+

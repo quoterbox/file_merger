@@ -1,10 +1,30 @@
-# Merger of XLSX or CSV files to one CSV file
+# Merger for XLSX or CSV files to one CSV file
 
 ## Description
 
-1. Put your **XLSX** or **CSV** files to `files_csv/` or `files_xlsx/` directories.
+1. Put your **XLSX** or **CSV** files in a separate directory, for example `files_csv/` or `files_xlsx/`.
 2. Start `pipenv run python main.py`
+3. The main script has some options for example:
 
+
+    from fmerger.fmerger import FMerger
+
+    file_merger = FMerger({
+        "sources_options": {
+            "source_dir": "files_xlsx",
+            "source_encoding": "",
+            "source_delimiter": ";",
+            "source_newline": "",
+        },
+        "target_file_options": {
+            "target_file": "merged_files.csv",
+            "target_encoding": "",
+            "target_delimiter": ";",
+            "target_newline": "",
+        }
+    })
+
+    file_merger.merge()
 
 ## Setup
 
