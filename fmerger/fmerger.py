@@ -91,9 +91,6 @@ class FMerger:
     target_delimiter = ";"
     target_newline = ""
 
-    sources_options = {}
-    target_file_options = {}
-
     def __init__(self, options: {}):
         self.source_dir = options["sources_options"]["source_dir"]
         self.source_encoding = options["sources_options"]["source_encoding"]
